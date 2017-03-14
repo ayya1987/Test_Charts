@@ -1,0 +1,17 @@
+<div style="text-align:center;"><h3>Home</h3></div>
+<div style="text-align:center;">Yearly Profit Sale!</div>
+<div ng-controller="HomeController">
+	<input type="button" class="btn btn-primary" id="item1" value="Engr" draggable></input>
+	<input type="button" class="btn btn-primary" style="margin-letf:5px;" id="item2" value="Sales" draggable></input>
+	<input type="button" class="btn btn-primary" style="margin-letf:5px;" id="item3" value="Mktg" draggable></input>
+	<input type="button" class="btn btn-primary" style="margin-letf:5px;" id="item4" value="Total" draggable></input>
+	<br/><br/>
+		<div google-chart chart="myChartObject" style="height:400px; width:100%;border: 1px solid #ccc;
+    	background: white;" droppable drop="handleDrop"></div>
+	<br/>
+	<div>
+		<input type="button" class="btn btn-success" value="Bar Chart" ng-click="setChartType('ColumnChart')"></input>
+		<input type="button" class="btn btn-success" style="margin-letf:5px;" value="Area Chart" ng-click="setChartType('AreaChart')"></input>
+	</div>
+	<p><a href="#/login">Logout</a></a></p>
+</div>

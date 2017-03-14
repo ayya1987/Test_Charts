@@ -1,0 +1,18 @@
+[
+	{
+	"Quarter" : "Quarter1",
+	"value" : 260
+	},
+	{
+	"Quarter" : "Quarter2",
+	"value" : 360
+	},
+	{
+	"Quarter" : "Quarter3",
+	"value" : 460
+	},
+	{
+	"Quarter" : "Quarter4",
+	"value" : 160
+	}
+]
